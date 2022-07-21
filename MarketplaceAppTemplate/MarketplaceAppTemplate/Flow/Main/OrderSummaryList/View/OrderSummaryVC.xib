@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrderSummaryVC" customModule="MarketplaceAppTemplate" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="3bJ-B1-FaV" id="xLK-Jx-paI"/>
+                <outlet property="continueButton" destination="2wf-et-5zf" id="9pO-zr-sYC"/>
+                <outlet property="tableView" destination="34U-eS-Uwk" id="xZl-3F-gRf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="34U-eS-Uwk">
+                    <rect key="frame" x="0.0" y="44" width="414" height="650.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivZ-NN-MIy">
+                    <rect key="frame" x="0.0" y="694.5" width="412" height="167.5"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SUZ-Kb-AZf">
+                            <rect key="frame" x="16" y="43.5" width="380" height="108"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bJ-B1-FaV">
+                                    <rect key="frame" x="0.0" y="0.0" width="380" height="50"/>
+                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="8Me-d5-bsC"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Cancel Order">
+                                        <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="cancelTapped:" destination="-1" eventType="touchUpInside" id="lWt-DH-URR"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wf-et-5zf">
+                                    <rect key="frame" x="0.0" y="58" width="380" height="50"/>
+                                    <color key="backgroundColor" systemColor="linkColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="BVW-79-UPZ"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Continue Payment">
+                                        <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="16"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="continueTapped:" destination="-1" eventType="touchUpInside" id="sGh-eq-adw"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total quantity : 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2R-Fp-Rnq">
+                            <rect key="frame" x="16" y="8" width="380" height="19.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="JNa-Gw-Jmf"/>
+                        <constraint firstAttribute="bottom" secondItem="SUZ-Kb-AZf" secondAttribute="bottom" constant="16" id="aVY-e2-cyx"/>
+                        <constraint firstAttribute="height" priority="250" constant="150" id="auM-fc-kb7"/>
+                        <constraint firstAttribute="trailing" secondItem="B2R-Fp-Rnq" secondAttribute="trailing" constant="16" id="awB-0C-Dit"/>
+                        <constraint firstAttribute="trailing" secondItem="SUZ-Kb-AZf" secondAttribute="trailing" constant="16" id="bt5-Io-YGF"/>
+                        <constraint firstItem="B2R-Fp-Rnq" firstAttribute="leading" secondItem="ivZ-NN-MIy" secondAttribute="leading" constant="16" id="buK-60-m24"/>
+                        <constraint firstItem="B2R-Fp-Rnq" firstAttribute="top" secondItem="ivZ-NN-MIy" secondAttribute="top" constant="8" id="c6Q-vU-1fo"/>
+                        <constraint firstItem="SUZ-Kb-AZf" firstAttribute="top" secondItem="B2R-Fp-Rnq" secondAttribute="bottom" constant="16" id="cbO-W9-Q3q"/>
+                        <constraint firstItem="SUZ-Kb-AZf" firstAttribute="leading" secondItem="ivZ-NN-MIy" secondAttribute="leading" constant="16" id="uzB-aZ-MrQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ivZ-NN-MIy" secondAttribute="bottom" id="Kxh-Sb-6ph"/>
+                <constraint firstItem="ivZ-NN-MIy" firstAttribute="top" secondItem="34U-eS-Uwk" secondAttribute="bottom" id="TlK-3N-cRh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ivZ-NN-MIy" secondAttribute="trailing" constant="2" id="k6d-p0-TNG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="34U-eS-Uwk" secondAttribute="trailing" id="kVT-o9-PX0"/>
+                <constraint firstItem="34U-eS-Uwk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="nz0-gN-2m9"/>
+                <constraint firstItem="ivZ-NN-MIy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rYE-j3-H5r"/>
+                <constraint firstItem="34U-eS-Uwk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="zpu-xQ-2U6"/>
+            </constraints>
+            <point key="canvasLocation" x="-39.130434782608695" y="-11.383928571428571"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
