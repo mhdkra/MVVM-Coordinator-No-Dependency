@@ -27,7 +27,7 @@ class ProductListRepositoryImpl: ProductListRepository {
                     
                     if let res = result {
                         let model = res.map { (res) in
-                            return ProductModel(id: res.id ?? 0, name: res.name ?? "", price: res.price ?? "", type: res.productType ?? "", imgUrl: res.imageLink ?? "")
+                            return ProductModel(id: res.id ?? 0, name: res.name ?? "", type: res.productType ?? "", imgUrl: res.imageLink ?? "", priceStr: res.price ?? "")
                         }
                         promise(.success(model))
                     }

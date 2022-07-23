@@ -10,9 +10,13 @@ import Foundation
 struct ProductModel {
     let id: Int
     let name: String
-    let price: String
+
     let type: String
     let imgUrl: String
+    var price: Double{
+        return Double(priceStr) ?? 0
+    }
+    let priceStr: String
 }
 
 enum BasicUIState {

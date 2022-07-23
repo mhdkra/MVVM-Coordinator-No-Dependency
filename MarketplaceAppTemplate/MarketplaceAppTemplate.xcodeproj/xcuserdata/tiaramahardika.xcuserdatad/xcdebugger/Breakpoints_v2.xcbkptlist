@@ -7,64 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7764399C-29D6-4A65-85AD-E7203AB23921"
+            uuid = "A6E4FC67-8206-4113-A95F-DF8126BB08BB"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MarketplaceAppTemplate/Flow/Main/ProductList/View/ProductListVC.swift"
+            filePath = "MarketplaceAppTemplate/Flow/Main/OrderSummaryList/View/OrderSummaryVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "bindViewModel()"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "update()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C0F04A8C-180A-4CED-AF7A-276E3D42893E"
+            uuid = "DC3C99FC-4EC6-424E-B859-51E7DC3CD248"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MarketplaceAppTemplate/Flow/Main/ProductList/View/ProductListVC.swift"
+            filePath = "MarketplaceAppTemplate/Flow/Main/OrderSummaryList/View/OrderSummaryVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "bindViewModel()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8E0CE41D-5879-4121-82D1-4680F8DC611B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarketplaceAppTemplate/Flow/Main/ProductList/UseCase/ProductListVM.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "requestproducts(brand:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "60BAC9F6-3CD3-4307-9CBE-F83B6F8FCCF2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MarketplaceAppTemplate/Flow/Main/ProductList/UseCase/ProductListVM.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "requestproducts(brand:)"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "update()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -49,10 +49,10 @@
 		30978FAB2886E26800F6CACE /* UITableView, UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F8D2886E26800F6CACE /* UITableView, UICollectionView+Extensions.swift */; };
 		30978FAC2886E26800F6CACE /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F8E2886E26800F6CACE /* NSObject+Extensions.swift */; };
 		30978FAD2886E26800F6CACE /* String+ Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F8F2886E26800F6CACE /* String+ Extentions.swift */; };
-		30978FAE2886E26800F6CACE /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F902886E26800F6CACE /* Animator.swift */; };
-		30978FB02886E26800F6CACE /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F922886E26800F6CACE /* Webview.swift */; };
-		30978FB12886E26800F6CACE /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F932886E26800F6CACE /* AnimationFactory.swift */; };
-		30978FB22886E26800F6CACE /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30978F942886E26800F6CACE /* Preference.swift */; };
+		30B7396D288B371200BA7087 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7396C288B371200BA7087 /* Cart.swift */; };
+		30B73970288BB0D500BA7087 /* SummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7396E288BB0D500BA7087 /* SummaryCell.swift */; };
+		30B73971288BB0D500BA7087 /* SummaryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B7396F288BB0D500BA7087 /* SummaryCell.xib */; };
+		30B73973288BDE3300BA7087 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B73972288BDE3300BA7087 /* Preference.swift */; };
 		30C3E98D2886C4C5002A777A /* BaseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3E9772886C4C5002A777A /* BaseBody.swift */; };
 		30C3E98E2886C4C5002A777A /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3E9782886C4C5002A777A /* HTTPRequest.swift */; };
 		30C3E98F2886C4C5002A777A /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3E9792886C4C5002A777A /* HTTPMethod.swift */; };
@@ -66,9 +66,6 @@
 		30C3E9A52886C7BB002A777A /* ProductListAPIImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3E9A12886C7BB002A777A /* ProductListAPIImpl.swift */; };
 		30C3E9A62886C7BB002A777A /* ProductListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3E9A22886C7BB002A777A /* ProductListAPI.swift */; };
 		30C3E9A72886C7BB002A777A /* ProductListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3E9A32886C7BB002A777A /* ProductListResponse.swift */; };
-		30DA10FC28884AC6009E5AE3 /* ProductsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA10F928884AC6009E5AE3 /* ProductsListViewController.swift */; };
-		30DA10FD28884AC6009E5AE3 /* ProductsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA10FA28884AC6009E5AE3 /* ProductsListViewModel.swift */; };
-		30DA10FE28884AC6009E5AE3 /* ProductsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DA10FB28884AC6009E5AE3 /* ProductsListViewController.storyboard */; };
 		30DA110528884F91009E5AE3 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA110128884F91009E5AE3 /* DataTransferService.swift */; };
 		30DA110628884F91009E5AE3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA110228884F91009E5AE3 /* NetworkService.swift */; };
 		30DA110728884F91009E5AE3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DA110328884F91009E5AE3 /* Endpoint.swift */; };
@@ -144,10 +141,10 @@
 		30978F8D2886E26800F6CACE /* UITableView, UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView, UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		30978F8E2886E26800F6CACE /* NSObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
 		30978F8F2886E26800F6CACE /* String+ Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ Extentions.swift"; sourceTree = "<group>"; };
-		30978F902886E26800F6CACE /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
-		30978F922886E26800F6CACE /* Webview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
-		30978F932886E26800F6CACE /* AnimationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
-		30978F942886E26800F6CACE /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
+		30B7396C288B371200BA7087 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		30B7396E288BB0D500BA7087 /* SummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCell.swift; sourceTree = "<group>"; };
+		30B7396F288BB0D500BA7087 /* SummaryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SummaryCell.xib; sourceTree = "<group>"; };
+		30B73972288BDE3300BA7087 /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
 		30C3E9772886C4C5002A777A /* BaseBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBody.swift; sourceTree = "<group>"; };
 		30C3E9782886C4C5002A777A /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
 		30C3E9792886C4C5002A777A /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -161,9 +158,6 @@
 		30C3E9A12886C7BB002A777A /* ProductListAPIImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListAPIImpl.swift; sourceTree = "<group>"; };
 		30C3E9A22886C7BB002A777A /* ProductListAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListAPI.swift; sourceTree = "<group>"; };
 		30C3E9A32886C7BB002A777A /* ProductListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListResponse.swift; sourceTree = "<group>"; };
-		30DA10F928884AC6009E5AE3 /* ProductsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewController.swift; sourceTree = "<group>"; };
-		30DA10FA28884AC6009E5AE3 /* ProductsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListViewModel.swift; sourceTree = "<group>"; };
-		30DA10FB28884AC6009E5AE3 /* ProductsListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductsListViewController.storyboard; sourceTree = "<group>"; };
 		30DA110128884F91009E5AE3 /* DataTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
 		30DA110228884F91009E5AE3 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		30DA110328884F91009E5AE3 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -247,6 +241,7 @@
 				30978F402886DD4300F6CACE /* ProductListVC.xib */,
 				30978F422886DD4300F6CACE /* ProductListView.swift */,
 				30978F432886DD4300F6CACE /* ProductModel.swift */,
+				30B7396C288B371200BA7087 /* Cart.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +273,8 @@
 				30978F682886E1CD00F6CACE /* ProductSummaryCell.swift */,
 				30978F692886E1CD00F6CACE /* ProductSummaryCell.xib */,
 				301C0DFE2887888A00F7457A /* OrderSummaryModel.swift */,
+				30B7396E288BB0D500BA7087 /* SummaryCell.swift */,
+				30B7396F288BB0D500BA7087 /* SummaryCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -343,11 +340,8 @@
 		30978F7D2886E26700F6CACE /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				30978F932886E26800F6CACE /* AnimationFactory.swift */,
-				30978F902886E26800F6CACE /* Animator.swift */,
 				30978F882886E26800F6CACE /* BaseViewModel.swift */,
-				30978F942886E26800F6CACE /* Preference.swift */,
-				30978F922886E26800F6CACE /* Webview.swift */,
+				30B73972288BDE3300BA7087 /* Preference.swift */,
 				30978F7E2886E26700F6CACE /* Coordinator */,
 				30978F892886E26800F6CACE /* Extensions */,
 			);
@@ -478,9 +472,6 @@
 				3F747DF1278E8A2C00B70461 /* Assets.xcassets */,
 				3F747DF3278E8A2C00B70461 /* LaunchScreen.storyboard */,
 				3F747DF6278E8A2C00B70461 /* Info.plist */,
-				30DA10F928884AC6009E5AE3 /* ProductsListViewController.swift */,
-				30DA10FA28884AC6009E5AE3 /* ProductsListViewModel.swift */,
-				30DA10FB28884AC6009E5AE3 /* ProductsListViewController.storyboard */,
 			);
 			path = MarketplaceAppTemplate;
 			sourceTree = "<group>";
@@ -614,9 +605,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30978F5B2886DD4300F6CACE /* ProductCell.xib in Resources */,
+				30B73971288BB0D500BA7087 /* SummaryCell.xib in Resources */,
 				3F747DF5278E8A2C00B70461 /* LaunchScreen.storyboard in Resources */,
 				30978F672886E13300F6CACE /* OrderSummaryVC.xib in Resources */,
-				30DA10FE28884AC6009E5AE3 /* ProductsListViewController.storyboard in Resources */,
 				30978F572886DD4300F6CACE /* ProductListVC.xib in Resources */,
 				3F747DF2278E8A2C00B70461 /* Assets.xcassets in Resources */,
 				3F747DF0278E8A2700B70461 /* Main.storyboard in Resources */,
@@ -649,18 +640,17 @@
 				30978F5A2886DD4300F6CACE /* ProductModel.swift in Sources */,
 				30C3E98F2886C4C5002A777A /* HTTPMethod.swift in Sources */,
 				30978FA02886E26800F6CACE /* DeepLinkOption.swift in Sources */,
+				30B73970288BB0D500BA7087 /* SummaryCell.swift in Sources */,
 				30C3E9902886C4C5002A777A /* HTTPClient.swift in Sources */,
 				30978F952886E26800F6CACE /* AppCoordinator.swift in Sources */,
+				30B73973288BDE3300BA7087 /* Preference.swift in Sources */,
 				30978F9D2886E26800F6CACE /* DataModuleFactory.swift in Sources */,
 				30978F962886E26800F6CACE /* CoordinatorFactoryImpl.swift in Sources */,
-				30978FB22886E26800F6CACE /* Preference.swift in Sources */,
 				30978FA22886E26800F6CACE /* Presentable.swift in Sources */,
 				30978FA52886E26800F6CACE /* RouterImpl.swift in Sources */,
 				30978F9B2886E26800F6CACE /* RepositoryModuleFactoryImpl.swift in Sources */,
 				30DA110628884F91009E5AE3 /* NetworkService.swift in Sources */,
-				30978FAE2886E26800F6CACE /* Animator.swift in Sources */,
 				30978FA82886E26800F6CACE /* UIViewController+Extensions.swift in Sources */,
-				30978FB12886E26800F6CACE /* AnimationFactory.swift in Sources */,
 				30978F9E2886E26800F6CACE /* VMModuleFactory.swift in Sources */,
 				30978F9C2886E26800F6CACE /* DataModuleFactoryImpl.swift in Sources */,
 				30978F5C2886DD4300F6CACE /* ProductListRepositoryImpl.swift in Sources */,
@@ -677,7 +667,6 @@
 				30978FA72886E26800F6CACE /* BaseViewModel.swift in Sources */,
 				30978FAC2886E26800F6CACE /* NSObject+Extensions.swift in Sources */,
 				30978F982886E26800F6CACE /* CoordinatorFactory.swift in Sources */,
-				30978FB02886E26800F6CACE /* Webview.swift in Sources */,
 				30978F6A2886E1CD00F6CACE /* ProductSummaryCell.swift in Sources */,
 				30978F9A2886E26800F6CACE /* RepositoryModuleFactory.swift in Sources */,
 				30978F9F2886E26800F6CACE /* VMModuleFactoryImpl.swift in Sources */,
@@ -687,6 +676,7 @@
 				30C3E9A52886C7BB002A777A /* ProductListAPIImpl.swift in Sources */,
 				30DA110828884F91009E5AE3 /* NetworkConfig.swift in Sources */,
 				30978FAB2886E26800F6CACE /* UITableView, UICollectionView+Extensions.swift in Sources */,
+				30B7396D288B371200BA7087 /* Cart.swift in Sources */,
 				30DA110728884F91009E5AE3 /* Endpoint.swift in Sources */,
 				30978F582886DD4300F6CACE /* ProductCell.swift in Sources */,
 				30C3E9A42886C7BB002A777A /* ProductListBody.swift in Sources */,
@@ -704,9 +694,7 @@
 				30978F492886DD4300F6CACE /* MainFactoryImpl.swift in Sources */,
 				30978F4B2886DD4300F6CACE /* MainFactory.swift in Sources */,
 				30978FA32886E26800F6CACE /* BaseView.swift in Sources */,
-				30DA10FC28884AC6009E5AE3 /* ProductsListViewController.swift in Sources */,
 				30978F632886E0EB00F6CACE /* OrderSummaryView.swift in Sources */,
-				30DA10FD28884AC6009E5AE3 /* ProductsListViewModel.swift in Sources */,
 				30978FAD2886E26800F6CACE /* String+ Extentions.swift in Sources */,
 				30C3E9952886C4C5002A777A /* HTTPInfo.swift in Sources */,
 			);

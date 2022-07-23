@@ -7,5 +7,8 @@
 
 import Foundation
 protocol OrderSummaryView: BaseView {
-    var products : [OrderSummaryModel] { get set }
+    var cart : [Int:ProductOrderModel]! { get set }
+    var onBackTapped: ((Bool,Bool, Timer?) -> Void)? { get set }
+    var isReset: Bool! { get set }
+    var timer: Timer? { get set }
 }
